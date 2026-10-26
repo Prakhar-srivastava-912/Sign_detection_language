@@ -23,7 +23,7 @@ RunningMode = mp.tasks.vision.RunningMode
 # ============================================================
 # 3. SETTINGS FOR STATIC SYMBOLS
 # ============================================================
-LABEL = "A"
+LABEL = "J"
 CSV_PATH = DATA_DIR / f"{LABEL}.csv"
 
 # Changed running mode to IMAGE for reliable static symbol capturing

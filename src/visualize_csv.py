@@ -5,7 +5,7 @@ from pathlib import Path
 
 # 1. Setup paths to read your collected CSV file
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-CSV_PATH = PROJECT_ROOT / "data" / "raw" / "B.csv"
+CSV_PATH = PROJECT_ROOT / "data" / "raw" / "Y.csv"
 
 if not CSV_PATH.exists():
     print(f"❌ Could not find the file at: {CSV_PATH}")
@@ -27,7 +27,7 @@ HAND_CONNECTIONS = [
     (0, 5), (5, 6), (6, 7), (7, 8),           # Index
     (5, 9), (9, 10), (10, 11), (11, 12),      # Middle
     (9, 13), (13, 14), (14, 15), (15, 16),    # Ring
-    (13, 17), (0, 17), (17, 18), (18, 19), (19, 20) # Pinky
+    (13, 17), (0, 17), (17, 18), (18, 19), (19, 20) # Little
 ]
 
 # 3. Loop through your saved entries row by row
